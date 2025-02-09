@@ -1,0 +1,4 @@
+speechbrain==1.0.2
+torch
+sounddevice
+numpy
