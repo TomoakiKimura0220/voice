@@ -62,13 +62,13 @@ python main.py
 
 ```json
 {
-  "emotion": "喜び",              // 多数決で選ばれた感情（日本語）
-  "neu_cnt": 10,                // "neu"（中立）の出現数
-  "hap_cnt": 35,                // "hap"（喜び）の出現数
-  "sad_cnt": 0,                 // "sad"（悲しみ）の出現数
-  "ang_cnt": 0,                 // "ang"（怒り）の出現数
-  "average_score": 6.15,        // 多数決対象の感情の平均信頼度スコア
-  "frame_count": 49             // 録音窓内の総フレーム数
+  "emotion": "喜び",       // 多数決で選ばれた感情（日本語）
+  "neu_cnt": 10,          // "neu"（中立）の出現数
+  "hap_cnt": 35,          // "hap"（喜び）の出現数
+  "sad_cnt": 0,           // "sad"（悲しみ）の出現数
+  "ang_cnt": 0,           // "ang"（怒り）の出現数
+  "average_score": 6.15,  // 多数決対象の感情の平均信頼度スコア
+  "frame_count": 49       // 録音窓内の総フレーム数
 }
 ```
 
