@@ -104,7 +104,10 @@ class EmotionRecognizer:
 
         result = {
             "emotion": majority_emotion_jp,
-            "raw_emotions": predictions,
+            "neu_cnt": counter.get("neu", 0),
+            "hap_cnt": counter.get("hap", 0),
+            "sad_cnt": counter.get("sad", 0),
+            "ang_cnt": counter.get("ang", 0),
             "average_score": avg_score,
             "frame_count": len(predictions)
         }
