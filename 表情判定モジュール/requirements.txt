@@ -1,0 +1,5 @@
+opencv-python==4.11.0.86
+numpy==1.26.4
+fer==22.5.1
+moviepy==1.0.3
+tensorflow==2.18.0
