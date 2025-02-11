@@ -48,25 +48,13 @@
 ```bash
 .
 ├── README.md                        # このドキュメント
-├── __pycache__                      # Python コンパイル済みキャッシュ
 ├── expression_recognition.py        # 表情認識をモジュール化したファイル  
 │                                     # → ExpressionRecognizer クラスを定義  
 ├── main.py                          # モジュールを呼び出して実際に認識を実行するファイル  
 │                                     #   ・画像ファイルからの入力例（コメントアウト済み）  
 │                                     #   ・カメラからの入力例（リアルタイム認識）
 ├── requirements.txt                 # 依存パッケージ一覧 (opencv-python, fer, tensorflow など)
-├── sample.jpg                       # サンプル画像（任意）
-├── sample_hap.jpg                   # サンプル画像（任意）
-├── sample_hap2.jpg                  # サンプル画像（任意）
-├── test_expression_recognition.py   # テスト用ファイル（このファイルだけで実行可能）
-├── venv                             # 仮想環境ディレクトリ（venv）
-│   ├── bin
-│   ├── include
-│   ├── lib
-│   ├── pyvenv.cfg
-│   └── share
-├── デバック用_angryが出力されるはず.jpg  # デバッグ用画像（怒りの出力を確認するため）
-└── デバック用_happyと出力されるはず.jpg    # デバッグ用画像（喜びの出力を確認するため）
+└── test_expression_recognition.py   # テスト用ファイル（このファイルだけで実行可能）
 ```
 
 ## セットアップ
